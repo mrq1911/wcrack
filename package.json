@@ -1,0 +1,27 @@
+{
+  "name": "wcrack",
+  "version": "1.0.0",
+  "description": "cracks wireless network",
+  "bin": {
+    "wcrack": "./bin/wcrack"
+  },
+  "scripts": {
+    "start" : "./bin/wcrack"
+  },
+  "keywords": [
+    "wifi",
+    "crack",
+    "wep",
+    "intruder"
+  ],
+  "author": "mrq",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/lumir-mrkva/wcrack.git"
+  },
+  "dependencies": {
+    "intruder": "^0.1.2",
+    "minimist": "^1.2.0"
+  }
+}
